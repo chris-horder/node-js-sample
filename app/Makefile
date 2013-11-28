@@ -1,3 +1,11 @@
+
+test:
+	@./node_modules/.bin/mocha ./test/
+
+		 
+.PHONY: test
+
+
 define publishzip
   mkdir -p ../Builds/
   rm -rf ../Builds/app.zip
