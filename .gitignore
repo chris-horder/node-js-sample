@@ -1,5 +1,6 @@
 .vagrant
 node_modules
 Builds
+build
 .anvil
 npm-debug.log

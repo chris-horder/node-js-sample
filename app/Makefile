@@ -7,9 +7,11 @@ test:
 
 
 define publishzip
-  mkdir -p ../Builds/
-  rm -rf ../Builds/app.zip
-  zip -x \*node_modules\* -r ../Builds/app.zip .
+	rm -rf ../build/
+	rm -rf ../Builds/
+  mkdir -p ../build/
+  rm -rf ../build/app.zip
+  zip -x \*node_modules\* -r ../build/app.zip .
 endef
 
 publish:
